@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#030303">
+
+    <GridLayout
+        android:id="@+id/splash_ll_gl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_color_aletme"
+        android:layout_centerInParent="true"
+        android:columnCount="7"
+        android:rowCount="4">
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H" />
+        <TextView
+            style="@style/splash_char_w_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A" />
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V" />
+        <TextView
+            style="@style/splash_char_w_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E" />
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A" />
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S" />
+        <TextView
+            style="@style/splash_char_w_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A" />
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F" />
+        <TextView
+            style="@style/splash_char_w_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E" />
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="J" />
+        <TextView
+            style="@style/splash_char_w_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O" />
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="U" />
+        <TextView
+            style="@style/splash_char_w_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R" />
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N" />
+        <TextView
+            style="@style/splash_char_w_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E" />
+        <TextView
+            style="@style/splash_char_b_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Y" />
+    </GridLayout>
+</RelativeLayout>

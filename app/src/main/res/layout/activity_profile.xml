@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#5fb0c9"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/footer"
+            android:layout_below="@+id/header"
+            android:background="@drawable/my_border"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="15dp"
+                android:layout_gravity="left">
+                <!--<TextView-->
+                    <!--style="@style/tv_text"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Name : "/>-->
+                <EditText
+                    android:drawableTint="#FF4081"
+                    android:singleLine="true"
+                    android:hint="Name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_name"
+                    />
+
+                <EditText
+                    android:drawableTint="#FF4081"
+                    android:singleLine="true"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_newpassword"
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:drawableTint="#FF4081"
+                    android:singleLine="true"
+                    android:hint="Email"
+                    android:id="@+id/et_mail" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:id="@+id/et_emeemail"
+                    android:drawableTint="#FF4081"
+                    android:singleLine="true"
+                    android:hint="Emergency Mail"
+                    android:layout_gravity="center_horizontal" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:drawableTint="#FF4081"
+                    android:singleLine="true"
+                    android:hint="Mobile No"
+                    android:id="@+id/et_mobile" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:drawableTint="#FF4081"
+                    android:singleLine="true"
+                    android:hint="Emergency Mobile No"
+                    android:id="@+id/et_ememobno" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableTint="#FF4081"
+                    android:singleLine="false"
+                    android:hint="Address "
+                    android:id="@+id/et_address" />
+                <Button
+                    android:id="@+id/btn_submit"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:background="#d67601"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include
+        android:id="@+id/footer"
+        layout="@layout/footer" />
+
+</RelativeLayout>

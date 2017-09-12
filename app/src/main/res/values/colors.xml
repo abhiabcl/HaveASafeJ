@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<drawable name="input_blue">#9cddff</drawable>
+	<drawable name="output_blue">#273350</drawable>
+	<color name="dark_blue">#f0ff5ce1</color>
+	<color name="dark_grey">#444444</color>
+    <color name="bg_color_aletme">#00ffffff</color>
+	<color name="red">#cc0000</color>
+	<color name="positive_amount">#9cddff</color>
+	<color name="positive_amount_shadow">#ffffff</color>
+	<color name="negative_amount">#ff3014</color>
+	<color name="negative_amount_shadow">#ffb6ad</color>
+</resources>
